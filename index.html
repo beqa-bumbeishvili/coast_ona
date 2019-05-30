@@ -52,7 +52,7 @@ var button = search.append('input')
 var toggle = 0;
 
 
-d3.json("file:///Users/chris_stanley/Development/coast_ona/marvel.json", function(error, graph) {
+d3.json("https://raw.githubusercontent.com/stanleychris2/coast_ona/master/marvel.json", function(error, graph) {
   if (error) throw error;
 
   // Make object of all neighboring nodes.
