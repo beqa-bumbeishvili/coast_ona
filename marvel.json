@@ -15490,14 +15490,6 @@
             "group":2,
             "id":"10906",
             "name":"Volstagg"
-        },
-        {
-            "betweenness":0.000405562944354137,
-            "degree":0.07920792079207921,
-            "eigenvector":0.02038537803369112,
-            "group":5,
-            "id":"10533",
-            "name":"Justice Ii/Vance Ast"
         }
     ]
 }
