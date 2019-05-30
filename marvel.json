@@ -15482,14 +15482,6 @@
             "group":0,
             "id":"10556",
             "name":"Wolverine/Logan"
-        },
-        {
-            "betweenness":6.567820961200598e-05,
-            "degree":0.06930693069306931,
-            "eigenvector":0.015906552905644366,
-            "group":2,
-            "id":"10906",
-            "name":"Volstagg"
         }
     ]
 }
