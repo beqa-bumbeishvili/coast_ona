@@ -52,7 +52,7 @@ var button = search.append('input')
 var toggle = 0;
 
 
-d3.json("https://gist.githubusercontent.com/jrladd/c76799aa63efd7176bd9006f403e854d/raw/b2f26ad3612abed5d4ade83972d42186c85da9f6/marvel.json", function(error, graph) {
+d3.json("file:///Users/chris_stanley/Development/coast_ona/marvel.json", function(error, graph) {
   if (error) throw error;
 
   // Make object of all neighboring nodes.
@@ -142,7 +142,7 @@ d3.json("https://gist.githubusercontent.com/jrladd/c76799aa63efd7176bd9006f403e8
   }
 
   	// A slider (using only d3 and HTML5) that removes nodes below the input threshold.
-	var slider = d3.select('body').append('p').text('Edge Weight Threshold: ');
+	var slider = d3.select('body').append('p').text('Number of messages: ');
 
 	slider.append('label')
 		.attr('for', 'threshold')
