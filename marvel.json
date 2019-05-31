@@ -3,1909 +3,1195 @@
     "graph": [],
     "links": [
         {
-            "source": 58,
-            "target": 35,
-            "weight": 0
-        },
-        {
-            "source": 57,
-            "target": 54,
-            "weight": 6
-        },
-        {
-            "source": 38,
-            "target": 37,
-            "weight": 5
-        },
-        {
-            "source": 34,
-            "target": 52,
-            "weight": 43
-        },
-        {
-            "source": 18,
-            "target": 70,
-            "weight": 31
-        },
-        {
-            "source": 17,
-            "target": 9,
-            "weight": 28
-        },
-        {
-            "source": 69,
-            "target": 4,
-            "weight": 35
-        },
-        {
-            "source": 19,
-            "target": 60,
-            "weight": 5
-        },
-        {
-            "source": 20,
-            "target": 0,
-            "weight": 40
-        },
-        {
-            "source": 57,
-            "target": 29,
-            "weight": 34
-        },
-        {
-            "source": 26,
-            "target": 4,
-            "weight": 39
-        },
-        {
-            "source": 76,
-            "target": 1,
-            "weight": 25
-        },
-        {
-            "source": 26,
-            "target": 72,
-            "weight": 36
-        },
-        {
-            "source": 42,
-            "target": 93,
-            "weight": 17
-        },
-        {
-            "source": 86,
-            "target": 7,
-            "weight": 36
-        },
-        {
-            "source": 72,
-            "target": 81,
-            "weight": 27
-        },
-        {
-            "source": 35,
-            "target": 52,
-            "weight": 50
-        },
-        {
-            "source": 43,
-            "target": 88,
-            "weight": 44
-        },
-        {
-            "source": 97,
-            "target": 3,
-            "weight": 26
-        },
-        {
-            "source": 2,
-            "target": 73,
-            "weight": 48
-        },
-        {
-            "source": 88,
-            "target": 60,
-            "weight": 13
-        },
-        {
-            "source": 15,
-            "target": 58,
-            "weight": 48
-        },
-        {
-            "source": 71,
-            "target": 58,
-            "weight": 42
-        },
-        {
-            "source": 44,
-            "target": 53,
-            "weight": 17
-        },
-        {
-            "source": 9,
-            "target": 87,
-            "weight": 45
-        },
-        {
-            "source": 43,
-            "target": 89,
-            "weight": 7
-        },
-        {
-            "source": 90,
-            "target": 25,
-            "weight": 37
-        },
-        {
-            "source": 12,
-            "target": 91,
-            "weight": 5
-        },
-        {
-            "source": 94,
-            "target": 72,
-            "weight": 42
-        },
-        {
-            "source": 32,
-            "target": 27,
-            "weight": 6
-        },
-        {
-            "source": 1,
-            "target": 62,
-            "weight": 12
-        },
-        {
-            "source": 4,
-            "target": 61,
-            "weight": 14
-        },
-        {
-            "source": 45,
-            "target": 56,
-            "weight": 14
-        },
-        {
-            "source": 33,
-            "target": 83,
-            "weight": 32
-        },
-        {
-            "source": 24,
-            "target": 59,
-            "weight": 2
-        },
-        {
-            "source": 45,
-            "target": 51,
-            "weight": 26
-        },
-        {
-            "source": 67,
-            "target": 23,
-            "weight": 30
-        },
-        {
-            "source": 40,
-            "target": 60,
-            "weight": 47
-        },
-        {
-            "source": 80,
-            "target": 92,
-            "weight": 6
-        },
-        {
-            "source": 0,
+            "source": 49,
             "target": 64,
-            "weight": 24
-        },
-        {
-            "source": 84,
-            "target": 3,
-            "weight": 21
-        },
-        {
-            "source": 61,
-            "target": 83,
-            "weight": 27
-        },
-        {
-            "source": 17,
-            "target": 40,
-            "weight": 10
-        },
-        {
-            "source": 52,
-            "target": 87,
-            "weight": 23
-        },
-        {
-            "source": 93,
-            "target": 18,
-            "weight": 2
-        },
-        {
-            "source": 10,
-            "target": 27,
-            "weight": 18
-        },
-        {
-            "source": 15,
-            "target": 38,
-            "weight": 4
-        },
-        {
-            "source": 4,
-            "target": 7,
-            "weight": 49
-        },
-        {
-            "source": 33,
-            "target": 42,
-            "weight": 22
-        },
-        {
-            "source": 31,
-            "target": 75,
-            "weight": 43
-        },
-        {
-            "source": 10,
-            "target": 62,
-            "weight": 40
-        },
-        {
-            "source": 89,
-            "target": 81,
-            "weight": 5
-        },
-        {
-            "source": 0,
-            "target": 70,
-            "weight": 38
-        },
-        {
-            "source": 8,
-            "target": 41,
-            "weight": 6
-        },
-        {
-            "source": 89,
-            "target": 22,
-            "weight": 12
-        },
-        {
-            "source": 9,
-            "target": 92,
-            "weight": 23
-        },
-        {
-            "source": 98,
-            "target": 74,
-            "weight": 12
-        },
-        {
-            "source": 74,
-            "target": 14,
-            "weight": 39
-        },
-        {
-            "source": 23,
-            "target": 95,
-            "weight": 10
-        },
-        {
-            "source": 83,
-            "target": 4,
-            "weight": 0
-        },
-        {
-            "source": 47,
-            "target": 60,
-            "weight": 30
-        },
-        {
-            "source": 45,
-            "target": 15,
             "weight": 48
         },
         {
-            "source": 47,
-            "target": 14,
-            "weight": 23
-        },
-        {
-            "source": 27,
-            "target": 98,
-            "weight": 2
-        },
-        {
-            "source": 14,
-            "target": 49,
-            "weight": 35
-        },
-        {
-            "source": 94,
-            "target": 21,
-            "weight": 18
-        },
-        {
-            "source": 95,
-            "target": 38,
-            "weight": 2
-        },
-        {
-            "source": 88,
-            "target": 20,
-            "weight": 12
-        },
-        {
-            "source": 95,
-            "target": 46,
-            "weight": 15
-        },
-        {
-            "source": 57,
-            "target": 68,
-            "weight": 9
-        },
-        {
-            "source": 46,
-            "target": 35,
-            "weight": 28
-        },
-        {
-            "source": 23,
-            "target": 20,
-            "weight": 7
-        },
-        {
-            "source": 15,
-            "target": 36,
-            "weight": 27
-        },
-        {
-            "source": 61,
-            "target": 6,
-            "weight": 17
-        },
-        {
-            "source": 62,
-            "target": 12,
-            "weight": 37
-        },
-        {
-            "source": 39,
-            "target": 26,
+            "source": 4,
+            "target": 64,
             "weight": 41
         },
         {
-            "source": 63,
-            "target": 11,
-            "weight": 37
-        },
-        {
-            "source": 37,
-            "target": 17,
-            "weight": 35
-        },
-        {
-            "source": 61,
-            "target": 6,
-            "weight": 5
-        },
-        {
-            "source": 95,
-            "target": 59,
-            "weight": 39
-        },
-        {
-            "source": 6,
-            "target": 66,
-            "weight": 36
-        },
-        {
-            "source": 62,
-            "target": 65,
-            "weight": 3
-        },
-        {
-            "source": 72,
-            "target": 75,
-            "weight": 45
-        },
-        {
             "source": 46,
-            "target": 80,
-            "weight": 25
-        },
-        {
-            "source": 70,
-            "target": 98,
-            "weight": 44
-        },
-        {
-            "source": 33,
-            "target": 0,
-            "weight": 4
-        },
-        {
-            "source": 48,
-            "target": 87,
-            "weight": 50
-        },
-        {
-            "source": 92,
-            "target": 11,
-            "weight": 36
-        },
-        {
-            "source": 37,
-            "target": 45,
-            "weight": 29
-        },
-        {
-            "source": 82,
-            "target": 17,
-            "weight": 1
-        },
-        {
-            "source": 62,
             "target": 1,
-            "weight": 1
+            "weight": 26
         },
         {
-            "source": 17,
-            "target": 59,
-            "weight": 38
-        },
-        {
-            "source": 68,
-            "target": 85,
-            "weight": 7
-        },
-        {
-            "source": 79,
-            "target": 46,
-            "weight": 3
-        },
-        {
-            "source": 85,
-            "target": 30,
-            "weight": 33
-        },
-        {
-            "source": 4,
-            "target": 8,
-            "weight": 14
-        },
-        {
-            "source": 58,
+            "source": 15,
             "target": 57,
-            "weight": 20
-        },
-        {
-            "source": 38,
-            "target": 92,
             "weight": 25
-        },
-        {
-            "source": 30,
-            "target": 56,
-            "weight": 35
-        },
-        {
-            "source": 90,
-            "target": 36,
-            "weight": 34
-        },
-        {
-            "source": 64,
-            "target": 77,
-            "weight": 20
-        },
-        {
-            "source": 21,
-            "target": 81,
-            "weight": 9
-        },
-        {
-            "source": 72,
-            "target": 14,
-            "weight": 50
-        },
-        {
-            "source": 93,
-            "target": 12,
-            "weight": 1
-        },
-        {
-            "source": 35,
-            "target": 10,
-            "weight": 9
-        },
-        {
-            "source": 83,
-            "target": 93,
-            "weight": 7
-        },
-        {
-            "source": 75,
-            "target": 80,
-            "weight": 31
-        },
-        {
-            "source": 7,
-            "target": 72,
-            "weight": 14
-        },
-        {
-            "source": 10,
-            "target": 41,
-            "weight": 0
-        },
-        {
-            "source": 52,
-            "target": 13,
-            "weight": 24
-        },
-        {
-            "source": 35,
-            "target": 51,
-            "weight": 2
-        },
-        {
-            "source": 45,
-            "target": 90,
-            "weight": 3
-        },
-        {
-            "source": 44,
-            "target": 80,
-            "weight": 37
-        },
-        {
-            "source": 96,
-            "target": 78,
-            "weight": 38
-        },
-        {
-            "source": 3,
-            "target": 48,
-            "weight": 44
-        },
-        {
-            "source": 61,
-            "target": 80,
-            "weight": 7
-        },
-        {
-            "source": 14,
-            "target": 1,
-            "weight": 34
-        },
-        {
-            "source": 82,
-            "target": 59,
-            "weight": 34
-        },
-        {
-            "source": 84,
-            "target": 98,
-            "weight": 10
-        },
-        {
-            "source": 42,
-            "target": 95,
-            "weight": 13
-        },
-        {
-            "source": 83,
-            "target": 81,
-            "weight": 9
-        },
-        {
-            "source": 80,
-            "target": 26,
-            "weight": 10
-        },
-        {
-            "source": 6,
-            "target": 49,
-            "weight": 9
-        },
-        {
-            "source": 16,
-            "target": 70,
-            "weight": 24
-        },
-        {
-            "source": 81,
-            "target": 59,
-            "weight": 48
-        },
-        {
-            "source": 92,
-            "target": 12,
-            "weight": 42
-        },
-        {
-            "source": 6,
-            "target": 69,
-            "weight": 16
-        },
-        {
-            "source": 6,
-            "target": 33,
-            "weight": 24
-        },
-        {
-            "source": 51,
-            "target": 38,
-            "weight": 40
-        },
-        {
-            "source": 51,
-            "target": 22,
-            "weight": 32
-        },
-        {
-            "source": 68,
-            "target": 40,
-            "weight": 29
-        },
-        {
-            "source": 55,
-            "target": 11,
-            "weight": 13
-        },
-        {
-            "source": 14,
-            "target": 37,
-            "weight": 32
-        },
-        {
-            "source": 46,
-            "target": 34,
-            "weight": 45
-        },
-        {
-            "source": 96,
-            "target": 70,
-            "weight": 12
-        },
-        {
-            "source": 58,
-            "target": 9,
-            "weight": 13
-        },
-        {
-            "source": 95,
-            "target": 52,
-            "weight": 29
-        },
-        {
-            "source": 96,
-            "target": 33,
-            "weight": 8
-        },
-        {
-            "source": 64,
-            "target": 52,
-            "weight": 15
-        },
-        {
-            "source": 24,
-            "target": 62,
-            "weight": 32
-        },
-        {
-            "source": 7,
-            "target": 21,
-            "weight": 24
-        },
-        {
-            "source": 85,
-            "target": 43,
-            "weight": 16
-        },
-        {
-            "source": 71,
-            "target": 96,
-            "weight": 18
-        },
-        {
-            "source": 86,
-            "target": 66,
-            "weight": 48
-        },
-        {
-            "source": 31,
-            "target": 5,
-            "weight": 49
-        },
-        {
-            "source": 34,
-            "target": 86,
-            "weight": 47
-        },
-        {
-            "source": 39,
-            "target": 40,
-            "weight": 21
-        },
-        {
-            "source": 75,
-            "target": 59,
-            "weight": 4
-        },
-        {
-            "source": 23,
-            "target": 70,
-            "weight": 44
-        },
-        {
-            "source": 94,
-            "target": 33,
-            "weight": 42
-        },
-        {
-            "source": 0,
-            "target": 51,
-            "weight": 15
-        },
-        {
-            "source": 26,
-            "target": 68,
-            "weight": 6
-        },
-        {
-            "source": 74,
-            "target": 5,
-            "weight": 40
-        },
-        {
-            "source": 81,
-            "target": 53,
-            "weight": 44
-        },
-        {
-            "source": 92,
-            "target": 14,
-            "weight": 40
-        },
-        {
-            "source": 19,
-            "target": 55,
-            "weight": 47
-        },
-        {
-            "source": 51,
-            "target": 36,
-            "weight": 22
-        },
-        {
-            "source": 41,
-            "target": 18,
-            "weight": 36
-        },
-        {
-            "source": 47,
-            "target": 77,
-            "weight": 1
-        },
-        {
-            "source": 87,
-            "target": 78,
-            "weight": 43
-        },
-        {
-            "source": 48,
-            "target": 95,
-            "weight": 2
-        },
-        {
-            "source": 43,
-            "target": 16,
-            "weight": 45
         },
         {
             "source": 12,
-            "target": 10,
-            "weight": 15
-        },
-        {
-            "source": 44,
-            "target": 45,
-            "weight": 50
-        },
-        {
-            "source": 57,
-            "target": 73,
+            "target": 71,
             "weight": 42
         },
         {
-            "source": 9,
-            "target": 29,
-            "weight": 32
-        },
-        {
-            "source": 39,
-            "target": 26,
-            "weight": 36
-        },
-        {
-            "source": 96,
-            "target": 52,
-            "weight": 36
-        },
-        {
-            "source": 51,
-            "target": 79,
-            "weight": 24
-        },
-        {
-            "source": 67,
-            "target": 67,
-            "weight": 13
-        },
-        {
-            "source": 16,
-            "target": 58,
-            "weight": 8
-        },
-        {
-            "source": 66,
-            "target": 43,
-            "weight": 44
-        },
-        {
-            "source": 93,
-            "target": 59,
-            "weight": 47
-        },
-        {
-            "source": 91,
-            "target": 79,
-            "weight": 40
-        },
-        {
-            "source": 60,
-            "target": 89,
-            "weight": 15
-        },
-        {
-            "source": 18,
-            "target": 38,
-            "weight": 15
-        },
-        {
-            "source": 94,
-            "target": 15,
-            "weight": 36
-        },
-        {
-            "source": 6,
-            "target": 62,
-            "weight": 4
-        },
-        {
-            "source": 7,
-            "target": 73,
-            "weight": 13
-        },
-        {
-            "source": 18,
-            "target": 80,
-            "weight": 37
-        },
-        {
-            "source": 31,
-            "target": 55,
-            "weight": 19
-        },
-        {
-            "source": 11,
-            "target": 68,
-            "weight": 18
-        },
-        {
-            "source": 70,
-            "target": 74,
-            "weight": 23
-        },
-        {
-            "source": 87,
-            "target": 45,
-            "weight": 10
-        },
-        {
-            "source": 56,
-            "target": 95,
-            "weight": 29
-        },
-        {
-            "source": 23,
-            "target": 25,
-            "weight": 37
-        },
-        {
-            "source": 59,
-            "target": 85,
-            "weight": 25
-        },
-        {
-            "source": 68,
-            "target": 30,
-            "weight": 44
-        },
-        {
-            "source": 17,
-            "target": 56,
-            "weight": 12
-        },
-        {
-            "source": 68,
-            "target": 20,
-            "weight": 15
-        },
-        {
-            "source": 86,
-            "target": 95,
-            "weight": 35
-        },
-        {
-            "source": 74,
-            "target": 42,
-            "weight": 33
-        },
-        {
-            "source": 1,
-            "target": 33,
-            "weight": 45
-        },
-        {
-            "source": 0,
-            "target": 85,
-            "weight": 6
-        },
-        {
-            "source": 60,
-            "target": 53,
-            "weight": 25
-        },
-        {
-            "source": 69,
-            "target": 98,
-            "weight": 16
-        },
-        {
-            "source": 86,
-            "target": 35,
-            "weight": 50
-        },
-        {
-            "source": 60,
-            "target": 51,
-            "weight": 27
-        },
-        {
-            "source": 63,
-            "target": 18,
-            "weight": 26
-        },
-        {
-            "source": 33,
-            "target": 76,
-            "weight": 31
-        },
-        {
-            "source": 61,
-            "target": 77,
-            "weight": 41
-        },
-        {
-            "source": 41,
-            "target": 0,
-            "weight": 15
-        },
-        {
-            "source": 5,
-            "target": 59,
-            "weight": 26
-        },
-        {
-            "source": 44,
-            "target": 33,
-            "weight": 17
-        },
-        {
-            "source": 70,
-            "target": 65,
-            "weight": 14
-        },
-        {
-            "source": 4,
+            "source": 65,
             "target": 21,
-            "weight": 5
-        },
-        {
-            "source": 93,
-            "target": 73,
-            "weight": 41
-        },
-        {
-            "source": 41,
-            "target": 39,
-            "weight": 35
-        },
-        {
-            "source": 98,
-            "target": 59,
-            "weight": 22
-        },
-        {
-            "source": 93,
-            "target": 65,
-            "weight": 1
-        },
-        {
-            "source": 14,
-            "target": 76,
-            "weight": 6
-        },
-        {
-            "source": 66,
-            "target": 28,
-            "weight": 20
-        },
-        {
-            "source": 74,
-            "target": 79,
             "weight": 11
         },
         {
-            "source": 54,
-            "target": 19,
-            "weight": 3
+            "source": 44,
+            "target": 6,
+            "weight": 50
         },
         {
-            "source": 77,
-            "target": 30,
-            "weight": 12
+            "source": 28,
+            "target": 32,
+            "weight": 4
         },
         {
-            "source": 19,
-            "target": 13,
-            "weight": 23
+            "source": 47,
+            "target": 62,
+            "weight": 32
         },
         {
-            "source": 58,
-            "target": 46,
+            "source": 79,
+            "target": 73,
+            "weight": 11
+        },
+        {
+            "source": 80,
+            "target": 77,
             "weight": 22
         },
         {
+            "source": 37,
+            "target": 35,
+            "weight": 18
+        },
+        {
+            "source": 79,
+            "target": 62,
+            "weight": 19
+        },
+        {
             "source": 14,
-            "target": 50,
-            "weight": 44
+            "target": 40,
+            "weight": 26
         },
         {
-            "source": 6,
-            "target": 32,
-            "weight": 2
+            "source": 68,
+            "target": 8,
+            "weight": 11
         },
         {
-            "source": 5,
-            "target": 32,
+            "source": 72,
+            "target": 25,
             "weight": 6
         },
         {
-            "source": 44,
+            "source": 30,
+            "target": 3,
+            "weight": 50
+        },
+        {
+            "source": 2,
+            "target": 39,
+            "weight": 3
+        },
+        {
+            "source": 62,
+            "target": 10,
+            "weight": 40
+        },
+        {
+            "source": 63,
+            "target": 73,
+            "weight": 37
+        },
+        {
+            "source": 21,
+            "target": 71,
+            "weight": 27
+        },
+        {
+            "source": 47,
+            "target": 60,
+            "weight": 26
+        },
+        {
+            "source": 74,
+            "target": 51,
+            "weight": 32
+        },
+        {
+            "source": 66,
+            "target": 34,
+            "weight": 29
+        },
+        {
+            "source": 19,
+            "target": 73,
+            "weight": 10
+        },
+        {
+            "source": 15,
+            "target": 12,
+            "weight": 34
+        },
+        {
+            "source": 27,
             "target": 4,
+            "weight": 27
+        },
+        {
+            "source": 15,
+            "target": 74,
+            "weight": 20
+        },
+        {
+            "source": 18,
+            "target": 69,
+            "weight": 12
+        },
+        {
+            "source": 62,
+            "target": 50,
+            "weight": 17
+        },
+        {
+            "source": 5,
+            "target": 56,
+            "weight": 35
+        },
+        {
+            "source": 28,
+            "target": 52,
+            "weight": 23
+        },
+        {
+            "source": 45,
+            "target": 30,
+            "weight": 39
+        },
+        {
+            "source": 32,
+            "target": 29,
+            "weight": 13
+        },
+        {
+            "source": 0,
+            "target": 0,
+            "weight": 40
+        },
+        {
+            "source": 66,
+            "target": 58,
+            "weight": 45
+        },
+        {
+            "source": 60,
+            "target": 10,
+            "weight": 26
+        },
+        {
+            "source": 50,
+            "target": 45,
             "weight": 48
+        },
+        {
+            "source": 68,
+            "target": 18,
+            "weight": 15
+        },
+        {
+            "source": 20,
+            "target": 71,
+            "weight": 9
+        },
+        {
+            "source": 20,
+            "target": 64,
+            "weight": 37
+        },
+        {
+            "source": 15,
+            "target": 75,
+            "weight": 2
+        },
+        {
+            "source": 6,
+            "target": 25,
+            "weight": 49
+        },
+        {
+            "source": 34,
+            "target": 6,
+            "weight": 28
+        },
+        {
+            "source": 46,
+            "target": 6,
+            "weight": 19
+        },
+        {
+            "source": 72,
+            "target": 71,
+            "weight": 42
+        },
+        {
+            "source": 27,
+            "target": 25,
+            "weight": 49
+        },
+        {
+            "source": 1,
+            "target": 78,
+            "weight": 0
+        },
+        {
+            "source": 11,
+            "target": 22,
+            "weight": 15
+        },
+        {
+            "source": 15,
+            "target": 16,
+            "weight": 49
+        },
+        {
+            "source": 79,
+            "target": 45,
+            "weight": 14
+        },
+        {
+            "source": 29,
+            "target": 20,
+            "weight": 23
+        },
+        {
+            "source": 26,
+            "target": 78,
+            "weight": 43
+        },
+        {
+            "source": 5,
+            "target": 39,
+            "weight": 38
+        },
+        {
+            "source": 9,
+            "target": 8,
+            "weight": 20
+        },
+        {
+            "source": 13,
+            "target": 14,
+            "weight": 14
+        },
+        {
+            "source": 16,
+            "target": 34,
+            "weight": 18
+        },
+        {
+            "source": 61,
+            "target": 48,
+            "weight": 26
+        },
+        {
+            "source": 45,
+            "target": 62,
+            "weight": 42
+        },
+        {
+            "source": 4,
+            "target": 1,
+            "weight": 46
+        },
+        {
+            "source": 20,
+            "target": 61,
+            "weight": 10
+        },
+        {
+            "source": 48,
+            "target": 50,
+            "weight": 34
+        },
+        {
+            "source": 65,
+            "target": 32,
+            "weight": 4
+        },
+        {
+            "source": 57,
+            "target": 8,
+            "weight": 30
+        },
+        {
+            "source": 66,
+            "target": 73,
+            "weight": 9
+        },
+        {
+            "source": 19,
+            "target": 67,
+            "weight": 43
+        },
+        {
+            "source": 11,
+            "target": 80,
+            "weight": 46
+        },
+        {
+            "source": 24,
+            "target": 7,
+            "weight": 0
+        },
+        {
+            "source": 12,
+            "target": 8,
+            "weight": 23
+        },
+        {
+            "source": 33,
+            "target": 37,
+            "weight": 26
+        },
+        {
+            "source": 32,
+            "target": 56,
+            "weight": 20
+        },
+        {
+            "source": 37,
+            "target": 68,
+            "weight": 18
+        },
+        {
+            "source": 52,
+            "target": 41,
+            "weight": 26
+        },
+        {
+            "source": 50,
+            "target": 66,
+            "weight": 3
+        },
+        {
+            "source": 15,
+            "target": 75,
+            "weight": 40
+        },
+        {
+            "source": 80,
+            "target": 54,
+            "weight": 32
+        },
+        {
+            "source": 2,
+            "target": 52,
+            "weight": 2
+        },
+        {
+            "source": 10,
+            "target": 37,
+            "weight": 33
+        },
+        {
+            "source": 50,
+            "target": 80,
+            "weight": 3
+        },
+        {
+            "source": 39,
+            "target": 67,
+            "weight": 5
+        },
+        {
+            "source": 55,
+            "target": 0,
+            "weight": 4
+        },
+        {
+            "source": 37,
+            "target": 17,
+            "weight": 23
+        },
+        {
+            "source": 35,
+            "target": 31,
+            "weight": 30
+        },
+        {
+            "source": 74,
+            "target": 78,
+            "weight": 28
+        },
+        {
+            "source": 32,
+            "target": 46,
+            "weight": 5
+        },
+        {
+            "source": 53,
+            "target": 48,
+            "weight": 2
+        },
+        {
+            "source": 19,
+            "target": 76,
+            "weight": 0
         },
         {
             "source": 15,
             "target": 71,
-            "weight": 37
+            "weight": 36
+        },
+        {
+            "source": 43,
+            "target": 70,
+            "weight": 48
+        },
+        {
+            "source": 46,
+            "target": 12,
+            "weight": 2
+        },
+        {
+            "source": 72,
+            "target": 58,
+            "weight": 40
+        },
+        {
+            "source": 72,
+            "target": 74,
+            "weight": 43
+        },
+        {
+            "source": 6,
+            "target": 22,
+            "weight": 27
+        },
+        {
+            "source": 77,
+            "target": 17,
+            "weight": 19
+        },
+        {
+            "source": 75,
+            "target": 2,
+            "weight": 49
+        },
+        {
+            "source": 41,
+            "target": 7,
+            "weight": 26
+        },
+        {
+            "source": 15,
+            "target": 49,
+            "weight": 22
+        },
+        {
+            "source": 54,
+            "target": 31,
+            "weight": 30
+        },
+        {
+            "source": 23,
+            "target": 55,
+            "weight": 19
+        },
+        {
+            "source": 35,
+            "target": 30,
+            "weight": 36
+        },
+        {
+            "source": 16,
+            "target": 22,
+            "weight": 7
+        },
+        {
+            "source": 7,
+            "target": 68,
+            "weight": 42
+        },
+        {
+            "source": 11,
+            "target": 56,
+            "weight": 35
+        },
+        {
+            "source": 34,
+            "target": 67,
+            "weight": 35
+        },
+        {
+            "source": 49,
+            "target": 33,
+            "weight": 17
+        },
+        {
+            "source": 79,
+            "target": 20,
+            "weight": 6
+        },
+        {
+            "source": 41,
+            "target": 23,
+            "weight": 2
+        },
+        {
+            "source": 44,
+            "target": 42,
+            "weight": 6
         }
     ],
     "multigraph": [],
     "nodes": [
         {
             "id": 0,
-            "degree": 0.5179656284441242,
-            "betweenness": 0.955108434936579,
-            "eigenvector": 0.07827723957389787,
-            "group": 2,
+            "degree": 0.6481937606195248,
+            "betweenness": 0.8236582686589323,
+            "eigenvector": 0.28309469258469167,
+            "group": 0,
             "name": 0
         },
         {
             "id": 1,
-            "degree": 0.7603195306828002,
-            "betweenness": 0.7722481510582564,
-            "eigenvector": 0.06104592722392599,
-            "group": 1,
+            "degree": 0.31120829908700276,
+            "betweenness": 0.11814343666111282,
+            "eigenvector": 0.005983361417574717,
+            "group": 3,
             "name": 1
         },
         {
             "id": 2,
-            "degree": 0.7198930640672502,
-            "betweenness": 0.5591795792868502,
-            "eigenvector": 0.8966000812336429,
-            "group": 1,
+            "degree": 0.9876205328438686,
+            "betweenness": 0.7102826858324289,
+            "eigenvector": 0.835118716669517,
+            "group": 2,
             "name": 2
         },
         {
             "id": 3,
-            "degree": 0.5787493372714456,
-            "betweenness": 0.253810903151681,
-            "eigenvector": 0.3709310223436809,
-            "group": 0,
+            "degree": 0.9660623069652073,
+            "betweenness": 0.18473370141898948,
+            "eigenvector": 0.7107767455519157,
+            "group": 2,
             "name": 3
         },
         {
             "id": 4,
-            "degree": 0.9526457999100824,
-            "betweenness": 0.39996690271218915,
-            "eigenvector": 0.1451555282901057,
-            "group": 2,
+            "degree": 0.8493263622856118,
+            "betweenness": 0.5661920241187623,
+            "eigenvector": 0.39727283101715005,
+            "group": 1,
             "name": 4
         },
         {
             "id": 5,
-            "degree": 0.9064774740499115,
-            "betweenness": 0.7411119097538872,
-            "eigenvector": 0.9647289549313204,
-            "group": 0,
+            "degree": 0.4756006896809486,
+            "betweenness": 0.34624699853404317,
+            "eigenvector": 0.4913186825845288,
+            "group": 1,
             "name": 5
         },
         {
             "id": 6,
-            "degree": 0.8173201216313234,
-            "betweenness": 0.668028012731269,
-            "eigenvector": 0.6594499993028385,
-            "group": 3,
+            "degree": 0.10065571620761782,
+            "betweenness": 0.9498480230690377,
+            "eigenvector": 0.9923114821118659,
+            "group": 0,
             "name": 6
         },
         {
             "id": 7,
-            "degree": 0.48048975970289987,
-            "betweenness": 0.3047809504122889,
-            "eigenvector": 0.17977070203456158,
-            "group": 0,
+            "degree": 0.08283621313013767,
+            "betweenness": 0.17644611044075176,
+            "eigenvector": 0.38197402741683484,
+            "group": 3,
             "name": 7
         },
         {
             "id": 8,
-            "degree": 0.5307924389199388,
-            "betweenness": 0.5768758867836049,
-            "eigenvector": 0.1698087887241182,
-            "group": 0,
+            "degree": 0.38790534735965476,
+            "betweenness": 0.5463831127291692,
+            "eigenvector": 0.1890840391248001,
+            "group": 2,
             "name": 8
         },
         {
             "id": 9,
-            "degree": 0.3341461704331896,
-            "betweenness": 0.821326436906933,
-            "eigenvector": 0.7385915778522806,
-            "group": 2,
+            "degree": 0.46223263769052303,
+            "betweenness": 0.2848588800855666,
+            "eigenvector": 0.699601676624728,
+            "group": 0,
             "name": 9
         },
         {
             "id": 10,
-            "degree": 0.9940148452590672,
-            "betweenness": 0.37042988913884056,
-            "eigenvector": 0.15844404435568304,
+            "degree": 0.4105143315404016,
+            "betweenness": 0.8838146161074343,
+            "eigenvector": 0.8133243331685827,
             "group": 2,
             "name": 10
         },
         {
             "id": 11,
-            "degree": 0.012601551047236148,
-            "betweenness": 0.06936209153767892,
-            "eigenvector": 0.19306600276501007,
+            "degree": 0.9581586563638342,
+            "betweenness": 0.7963284227481475,
+            "eigenvector": 0.04526824435332499,
             "group": 0,
             "name": 11
         },
         {
             "id": 12,
-            "degree": 0.4485064498921302,
-            "betweenness": 0.872276030411302,
-            "eigenvector": 0.6377265649139999,
-            "group": 1,
+            "degree": 0.3786645889147815,
+            "betweenness": 0.8386264934592569,
+            "eigenvector": 0.3232964246062767,
+            "group": 0,
             "name": 12
         },
         {
             "id": 13,
-            "degree": 0.12056281430885396,
-            "betweenness": 0.5024082648717221,
-            "eigenvector": 0.4401364998064201,
-            "group": 0,
+            "degree": 0.4227679319234655,
+            "betweenness": 0.30157192636522323,
+            "eigenvector": 0.5430834925749293,
+            "group": 2,
             "name": 13
         },
         {
             "id": 14,
-            "degree": 0.5218215723275237,
-            "betweenness": 0.6587673015741916,
-            "eigenvector": 0.46294226310261144,
+            "degree": 0.29882335148637085,
+            "betweenness": 0.6065002309530195,
+            "eigenvector": 0.8073273166876394,
             "group": 0,
             "name": 14
         },
         {
             "id": 15,
-            "degree": 0.6281636760565308,
-            "betweenness": 0.4052993525572428,
-            "eigenvector": 0.5474180191567153,
-            "group": 1,
+            "degree": 0.9228369059463577,
+            "betweenness": 0.5795288550219849,
+            "eigenvector": 0.8981884593632912,
+            "group": 3,
             "name": 15
         },
         {
             "id": 16,
-            "degree": 0.7127764447865367,
-            "betweenness": 0.18799581216275552,
-            "eigenvector": 0.04281482876881659,
-            "group": 0,
+            "degree": 0.9817588342336779,
+            "betweenness": 0.0639757945525834,
+            "eigenvector": 0.8102583954934576,
+            "group": 3,
             "name": 16
         },
         {
             "id": 17,
-            "degree": 0.6107384988458517,
-            "betweenness": 0.39122843180755473,
-            "eigenvector": 0.3769592165048171,
-            "group": 3,
+            "degree": 0.8350911026587081,
+            "betweenness": 0.6422798955418464,
+            "eigenvector": 0.10592772430085529,
+            "group": 1,
             "name": 17
         },
         {
             "id": 18,
-            "degree": 0.6172154160733315,
-            "betweenness": 0.46666764651718196,
-            "eigenvector": 0.5610757728193612,
-            "group": 2,
+            "degree": 0.9175603264408819,
+            "betweenness": 0.6968239015030306,
+            "eigenvector": 0.44584630701039496,
+            "group": 0,
             "name": 18
         },
         {
             "id": 19,
-            "degree": 0.348276135150391,
-            "betweenness": 0.4464601226761207,
-            "eigenvector": 0.745441584694586,
-            "group": 1,
+            "degree": 0.09955157812242199,
+            "betweenness": 0.9033180653365042,
+            "eigenvector": 0.894236926035428,
+            "group": 2,
             "name": 19
         },
         {
             "id": 20,
-            "degree": 0.4450978924896949,
-            "betweenness": 0.0869118324784387,
-            "eigenvector": 0.07236297669045955,
-            "group": 0,
+            "degree": 0.4121937148626631,
+            "betweenness": 0.5209112380604618,
+            "eigenvector": 0.5021450438665238,
+            "group": 2,
             "name": 20
         },
         {
             "id": 21,
-            "degree": 0.9603353503331289,
-            "betweenness": 0.9797434280261585,
-            "eigenvector": 0.10909781863279422,
-            "group": 3,
+            "degree": 0.6504326772761932,
+            "betweenness": 0.5199530606768129,
+            "eigenvector": 0.23127702325702104,
+            "group": 2,
             "name": 21
         },
         {
             "id": 22,
-            "degree": 0.6296874041541703,
-            "betweenness": 0.7150546716639332,
-            "eigenvector": 0.08572933782875547,
-            "group": 0,
+            "degree": 0.6301241544426185,
+            "betweenness": 0.6713393468611414,
+            "eigenvector": 0.49690001960520236,
+            "group": 3,
             "name": 22
         },
         {
             "id": 23,
-            "degree": 0.002202813279298277,
-            "betweenness": 0.5834554008530125,
-            "eigenvector": 0.011630782260682149,
-            "group": 1,
+            "degree": 0.29412226507038897,
+            "betweenness": 0.2106302113923446,
+            "eigenvector": 0.48034622784678893,
+            "group": 0,
             "name": 23
         },
         {
             "id": 24,
-            "degree": 0.5796239056884089,
-            "betweenness": 0.3643905500647212,
-            "eigenvector": 0.4990421963942899,
-            "group": 2,
+            "degree": 0.43753677156502135,
+            "betweenness": 0.5856387604167611,
+            "eigenvector": 0.8899857316641162,
+            "group": 0,
             "name": 24
         },
         {
             "id": 25,
-            "degree": 0.6980750486382065,
-            "betweenness": 0.4635070128834031,
-            "eigenvector": 0.7834140924883571,
+            "degree": 0.5537757059683328,
+            "betweenness": 0.0979451286107258,
+            "eigenvector": 0.03410106421591341,
             "group": 2,
             "name": 25
         },
         {
             "id": 26,
-            "degree": 0.8746606921797673,
-            "betweenness": 0.03398073886146924,
-            "eigenvector": 0.9975553944124029,
-            "group": 3,
+            "degree": 0.19068673557980964,
+            "betweenness": 0.956799662924657,
+            "eigenvector": 0.9099181560155968,
+            "group": 0,
             "name": 26
         },
         {
             "id": 27,
-            "degree": 0.7370455695329323,
-            "betweenness": 0.745042497792825,
-            "eigenvector": 0.2302556963444511,
-            "group": 0,
+            "degree": 0.25005485491071044,
+            "betweenness": 0.3781355531056547,
+            "eigenvector": 0.5101178337636413,
+            "group": 2,
             "name": 27
         },
         {
             "id": 28,
-            "degree": 0.4558470766358944,
-            "betweenness": 0.5455111328375416,
-            "eigenvector": 0.27993488355363705,
-            "group": 0,
+            "degree": 0.8639100380659767,
+            "betweenness": 0.8819201725920125,
+            "eigenvector": 0.7014729307426496,
+            "group": 1,
             "name": 28
         },
         {
             "id": 29,
-            "degree": 0.8076784431244152,
-            "betweenness": 0.11096346100881771,
-            "eigenvector": 0.30000586602222745,
-            "group": 0,
+            "degree": 0.8375434159720798,
+            "betweenness": 0.8678313791059827,
+            "eigenvector": 0.8398256031962008,
+            "group": 1,
             "name": 29
         },
         {
             "id": 30,
-            "degree": 0.6109380980816275,
-            "betweenness": 0.6602403692311932,
-            "eigenvector": 0.7250190994692186,
-            "group": 3,
+            "degree": 0.16182611440757444,
+            "betweenness": 0.8822533702006902,
+            "eigenvector": 0.7514409557945444,
+            "group": 2,
             "name": 30
         },
         {
             "id": 31,
-            "degree": 0.29694950043825274,
-            "betweenness": 0.4803087984733827,
-            "eigenvector": 0.9652903398740417,
-            "group": 2,
+            "degree": 0.7663697306405312,
+            "betweenness": 0.728844219573731,
+            "eigenvector": 0.8328419583829008,
+            "group": 1,
             "name": 31
         },
         {
             "id": 32,
-            "degree": 0.8058125927784513,
-            "betweenness": 0.8080696096813663,
-            "eigenvector": 0.36259559255588936,
-            "group": 3,
+            "degree": 0.5102636247957618,
+            "betweenness": 0.720434888818043,
+            "eigenvector": 0.7995522799318852,
+            "group": 2,
             "name": 32
         },
         {
             "id": 33,
-            "degree": 0.829336524797113,
-            "betweenness": 0.6835220218060741,
-            "eigenvector": 0.8106506375323742,
-            "group": 2,
+            "degree": 0.3885683295977388,
+            "betweenness": 0.9217779720911652,
+            "eigenvector": 0.04874297776726377,
+            "group": 1,
             "name": 33
         },
         {
             "id": 34,
-            "degree": 0.6626807859581343,
-            "betweenness": 0.010764988524814223,
-            "eigenvector": 0.26147487230734523,
-            "group": 3,
+            "degree": 0.07044071549561948,
+            "betweenness": 0.19067148257519084,
+            "eigenvector": 0.6915998350497874,
+            "group": 1,
             "name": 34
         },
         {
             "id": 35,
-            "degree": 0.5718395930141741,
-            "betweenness": 0.3416368608776841,
-            "eigenvector": 0.06237192703205252,
+            "degree": 0.17871152599728812,
+            "betweenness": 0.1892411478677699,
+            "eigenvector": 0.05829845094266162,
             "group": 3,
             "name": 35
         },
         {
             "id": 36,
-            "degree": 0.6358626545944088,
-            "betweenness": 0.8313643304740189,
-            "eigenvector": 0.698142962576634,
+            "degree": 0.1709307422150409,
+            "betweenness": 0.3076726650895939,
+            "eigenvector": 0.8817939857466275,
             "group": 2,
             "name": 36
         },
         {
             "id": 37,
-            "degree": 0.4807127174259801,
-            "betweenness": 0.4064126741808233,
-            "eigenvector": 0.049280449760139344,
-            "group": 0,
+            "degree": 0.2883423617667753,
+            "betweenness": 0.6194427433822145,
+            "eigenvector": 0.4262036697504329,
+            "group": 2,
             "name": 37
         },
         {
             "id": 38,
-            "degree": 0.18591838996766186,
-            "betweenness": 0.4317989844714325,
-            "eigenvector": 0.7192738856770904,
-            "group": 1,
+            "degree": 0.8019450073824177,
+            "betweenness": 0.5701060068167646,
+            "eigenvector": 0.5413794021729276,
+            "group": 2,
             "name": 38
         },
         {
             "id": 39,
-            "degree": 0.9156884770101915,
-            "betweenness": 0.06845078387647907,
-            "eigenvector": 0.3327912908900361,
+            "degree": 0.7037399092600837,
+            "betweenness": 0.09095246932421197,
+            "eigenvector": 0.997339152786078,
             "group": 3,
             "name": 39
         },
         {
             "id": 40,
-            "degree": 0.5029120987877951,
-            "betweenness": 0.07076250340937773,
-            "eigenvector": 0.9613830585560992,
-            "group": 1,
+            "degree": 0.06646372413842694,
+            "betweenness": 0.22435772742253202,
+            "eigenvector": 0.48054533578655045,
+            "group": 3,
             "name": 40
         },
         {
             "id": 41,
-            "degree": 0.29747618216958693,
-            "betweenness": 0.9903230200336911,
-            "eigenvector": 0.9944878976292499,
-            "group": 3,
+            "degree": 0.5265484707533313,
+            "betweenness": 0.14940693008685046,
+            "eigenvector": 0.3185892804942244,
+            "group": 2,
             "name": 41
         },
         {
             "id": 42,
-            "degree": 0.07959016848776856,
-            "betweenness": 0.6238569345547531,
-            "eigenvector": 0.8409031840477137,
-            "group": 1,
+            "degree": 0.7327461851539345,
+            "betweenness": 0.7043796865507616,
+            "eigenvector": 0.34066061978425133,
+            "group": 2,
             "name": 42
         },
         {
             "id": 43,
-            "degree": 0.7343155370992781,
-            "betweenness": 0.07174374740361877,
-            "eigenvector": 0.8195146768297584,
-            "group": 0,
+            "degree": 0.14680173026495846,
+            "betweenness": 0.11694282924461918,
+            "eigenvector": 0.2782514327059542,
+            "group": 1,
             "name": 43
         },
         {
             "id": 44,
-            "degree": 0.685255264089633,
-            "betweenness": 0.9580482492022001,
-            "eigenvector": 0.4779638514064185,
+            "degree": 0.28275166945428576,
+            "betweenness": 0.6734040439994952,
+            "eigenvector": 0.7638646004956332,
             "group": 1,
             "name": 44
         },
         {
             "id": 45,
-            "degree": 0.7933665603853316,
-            "betweenness": 0.20381656238759416,
-            "eigenvector": 0.364063619805003,
-            "group": 0,
+            "degree": 0.3278732586324181,
+            "betweenness": 0.4851383844857755,
+            "eigenvector": 0.2950666132497687,
+            "group": 1,
             "name": 45
         },
         {
             "id": 46,
-            "degree": 0.541117583421241,
-            "betweenness": 0.24246217558377992,
-            "eigenvector": 0.9671557213229083,
+            "degree": 0.10100231123115799,
+            "betweenness": 0.3433068640437682,
+            "eigenvector": 0.4970452991578095,
             "group": 0,
             "name": 46
         },
         {
             "id": 47,
-            "degree": 0.8427172136616994,
-            "betweenness": 0.7193869111886921,
-            "eigenvector": 0.14523668078321583,
+            "degree": 0.4728844039741956,
+            "betweenness": 0.8922443627104018,
+            "eigenvector": 0.6389029225217837,
             "group": 0,
             "name": 47
         },
         {
             "id": 48,
-            "degree": 0.7479041667220888,
-            "betweenness": 0.5275515835792041,
-            "eigenvector": 0.8585611131211984,
-            "group": 2,
+            "degree": 0.6984189497321857,
+            "betweenness": 0.997401882764004,
+            "eigenvector": 0.6372360476097235,
+            "group": 1,
             "name": 48
         },
         {
             "id": 49,
-            "degree": 0.6397899832613893,
-            "betweenness": 0.4965321073790542,
-            "eigenvector": 0.4415647301812424,
-            "group": 3,
+            "degree": 0.5921010802283314,
+            "betweenness": 0.2354859411145399,
+            "eigenvector": 0.715123138317912,
+            "group": 2,
             "name": 49
         },
         {
             "id": 50,
-            "degree": 0.2665080140763477,
-            "betweenness": 0.17466658839712124,
-            "eigenvector": 0.9623317724803921,
-            "group": 2,
+            "degree": 0.11566157909030372,
+            "betweenness": 0.8924457205688225,
+            "eigenvector": 0.47546180046688247,
+            "group": 3,
             "name": 50
         },
         {
             "id": 51,
-            "degree": 0.09192858901729428,
-            "betweenness": 0.9222194559801145,
-            "eigenvector": 0.44246451855592206,
-            "group": 2,
+            "degree": 0.7408504933467516,
+            "betweenness": 0.719216529300272,
+            "eigenvector": 0.3946675795491098,
+            "group": 1,
             "name": 51
         },
         {
             "id": 52,
-            "degree": 0.0024578290632810695,
-            "betweenness": 0.9680589315534364,
-            "eigenvector": 0.8400953617089391,
-            "group": 1,
+            "degree": 0.9005052160173433,
+            "betweenness": 0.9656357066171022,
+            "eigenvector": 0.6460663896671948,
+            "group": 2,
             "name": 52
         },
         {
             "id": 53,
-            "degree": 0.36494620670964617,
-            "betweenness": 0.17316452108151004,
-            "eigenvector": 0.7349148821991195,
-            "group": 1,
+            "degree": 0.9474892060778719,
+            "betweenness": 0.8897050339036143,
+            "eigenvector": 0.7218835652965119,
+            "group": 3,
             "name": 53
         },
         {
             "id": 54,
-            "degree": 0.79498985149046,
-            "betweenness": 0.9913515455468422,
-            "eigenvector": 0.5964717116850283,
+            "degree": 0.30378290108137396,
+            "betweenness": 0.02238173888915862,
+            "eigenvector": 0.538552020806218,
             "group": 2,
             "name": 54
         },
         {
             "id": 55,
-            "degree": 0.7654162069521562,
-            "betweenness": 0.5209199386220182,
-            "eigenvector": 0.36563345487011545,
-            "group": 0,
+            "degree": 0.9009536479720067,
+            "betweenness": 0.9573374847132583,
+            "eigenvector": 0.5821328747955282,
+            "group": 1,
             "name": 55
         },
         {
             "id": 56,
-            "degree": 0.36150297757958594,
-            "betweenness": 0.600504778601156,
-            "eigenvector": 0.8339802061275988,
-            "group": 2,
+            "degree": 0.5884265993382619,
+            "betweenness": 0.33063320505085136,
+            "eigenvector": 0.17896225480076422,
+            "group": 0,
             "name": 56
         },
         {
             "id": 57,
-            "degree": 0.07248707268529087,
-            "betweenness": 0.6182267145007564,
-            "eigenvector": 0.9670351687855175,
+            "degree": 0.9174243895856594,
+            "betweenness": 0.9570146602342171,
+            "eigenvector": 0.16120785770405177,
             "group": 0,
             "name": 57
         },
         {
             "id": 58,
-            "degree": 0.4981785932174304,
-            "betweenness": 0.07531031253450782,
-            "eigenvector": 0.8846197470935429,
+            "degree": 0.5961377085863584,
+            "betweenness": 0.7975423804099016,
+            "eigenvector": 0.03783957313349273,
             "group": 3,
             "name": 58
         },
         {
             "id": 59,
-            "degree": 0.24500216279261944,
-            "betweenness": 0.9736588492262406,
-            "eigenvector": 0.6852535634912355,
-            "group": 1,
+            "degree": 0.955635578091871,
+            "betweenness": 0.5475265497130245,
+            "eigenvector": 0.27858845706062374,
+            "group": 2,
             "name": 59
         },
         {
             "id": 60,
-            "degree": 0.08754589395860346,
-            "betweenness": 0.7814444661918131,
-            "eigenvector": 0.681401890054623,
-            "group": 1,
+            "degree": 0.9662180825758184,
+            "betweenness": 0.15424558887854933,
+            "eigenvector": 0.47178909059240437,
+            "group": 3,
             "name": 60
         },
         {
             "id": 61,
-            "degree": 0.6797062298778399,
-            "betweenness": 0.07159277478612369,
-            "eigenvector": 0.8985066104197774,
-            "group": 2,
+            "degree": 0.7003605030954148,
+            "betweenness": 0.5006853715349323,
+            "eigenvector": 0.9265702652964797,
+            "group": 0,
             "name": 61
         },
         {
             "id": 62,
-            "degree": 0.7137745420757585,
-            "betweenness": 0.9251114481139984,
-            "eigenvector": 0.8831192754525116,
-            "group": 2,
+            "degree": 0.651092986868821,
+            "betweenness": 0.8245430589540992,
+            "eigenvector": 0.7556792678887063,
+            "group": 3,
             "name": 62
         },
         {
             "id": 63,
-            "degree": 0.4463193522678405,
-            "betweenness": 0.8445325269015966,
-            "eigenvector": 0.9640877066789635,
-            "group": 1,
+            "degree": 0.9836046526071102,
+            "betweenness": 0.18099793285568777,
+            "eigenvector": 0.5972958086520986,
+            "group": 2,
             "name": 63
         },
         {
             "id": 64,
-            "degree": 0.936475501399169,
-            "betweenness": 0.2323084818484099,
-            "eigenvector": 0.1156299972395376,
+            "degree": 0.6230572150571563,
+            "betweenness": 0.40325923001805786,
+            "eigenvector": 0.9125112700233491,
             "group": 2,
             "name": 64
         },
         {
             "id": 65,
-            "degree": 0.17526001691604853,
-            "betweenness": 0.45482247362539663,
-            "eigenvector": 0.4822636874363423,
+            "degree": 0.06303766756030116,
+            "betweenness": 0.5666588194103395,
+            "eigenvector": 0.2297197689580457,
             "group": 0,
             "name": 65
         },
         {
             "id": 66,
-            "degree": 0.5237914457558677,
-            "betweenness": 0.13474362834419495,
-            "eigenvector": 0.44293920828910527,
-            "group": 0,
+            "degree": 0.9167755818677753,
+            "betweenness": 0.9200642696020582,
+            "eigenvector": 0.7979878302362843,
+            "group": 2,
             "name": 66
         },
         {
             "id": 67,
-            "degree": 0.5237981399312953,
-            "betweenness": 0.5927781583689604,
-            "eigenvector": 0.815360696709923,
+            "degree": 0.5271952642511251,
+            "betweenness": 0.6126457889575203,
+            "eigenvector": 0.8585393770058338,
             "group": 1,
             "name": 67
         },
         {
             "id": 68,
-            "degree": 0.19555788722408862,
-            "betweenness": 0.2944377445493479,
-            "eigenvector": 0.43135962391290883,
-            "group": 3,
+            "degree": 0.40206905811567106,
+            "betweenness": 0.31453838555792135,
+            "eigenvector": 0.14681334736513185,
+            "group": 0,
             "name": 68
         },
         {
             "id": 69,
-            "degree": 0.39641973905470584,
-            "betweenness": 0.7482670261636015,
-            "eigenvector": 0.8503192667406088,
-            "group": 0,
+            "degree": 0.8469823915245895,
+            "betweenness": 0.006698238903465659,
+            "eigenvector": 0.29712173700045863,
+            "group": 3,
             "name": 69
         },
         {
             "id": 70,
-            "degree": 0.6773165317719126,
-            "betweenness": 0.5490417230281769,
-            "eigenvector": 0.42003161987188065,
-            "group": 0,
+            "degree": 0.9315178012875885,
+            "betweenness": 0.7982600737596616,
+            "eigenvector": 0.5377558454793075,
+            "group": 3,
             "name": 70
         },
         {
             "id": 71,
-            "degree": 0.34518414166738953,
-            "betweenness": 0.16277015003479256,
-            "eigenvector": 0.2429999449458432,
+            "degree": 0.8430089230560806,
+            "betweenness": 0.6189604568403434,
+            "eigenvector": 0.43645869792214265,
             "group": 3,
             "name": 71
         },
         {
             "id": 72,
-            "degree": 0.11596176262669589,
-            "betweenness": 0.6099003548583334,
-            "eigenvector": 0.8610845786674163,
-            "group": 2,
+            "degree": 0.7574123392653513,
+            "betweenness": 0.029699400987045044,
+            "eigenvector": 0.4845027247819743,
+            "group": 0,
             "name": 72
         },
         {
             "id": 73,
-            "degree": 0.8258550924741545,
-            "betweenness": 0.4189559737857932,
-            "eigenvector": 0.6325206323653416,
+            "degree": 0.5882891142974158,
+            "betweenness": 0.19607047238908892,
+            "eigenvector": 0.9921808897279122,
             "group": 3,
             "name": 73
         },
         {
             "id": 74,
-            "degree": 0.15780179619708445,
-            "betweenness": 0.09489398297790341,
-            "eigenvector": 0.8427206498863917,
+            "degree": 0.36258416842288566,
+            "betweenness": 0.27769787340044205,
+            "eigenvector": 0.10934096989877196,
             "group": 3,
             "name": 74
         },
         {
             "id": 75,
-            "degree": 0.23558724794304842,
-            "betweenness": 0.874797731962087,
-            "eigenvector": 0.5639069651478373,
-            "group": 2,
+            "degree": 0.515836191492293,
+            "betweenness": 0.10047604771796759,
+            "eigenvector": 0.7816620990140859,
+            "group": 0,
             "name": 75
         },
         {
             "id": 76,
-            "degree": 0.23981550775174398,
-            "betweenness": 0.7280893701980904,
-            "eigenvector": 0.15850195998832595,
+            "degree": 0.09964689694585693,
+            "betweenness": 0.9993159083001961,
+            "eigenvector": 0.10669346887420661,
             "group": 1,
             "name": 76
         },
         {
             "id": 77,
-            "degree": 0.9079488181489207,
-            "betweenness": 0.3992654515341606,
-            "eigenvector": 0.10733683593448984,
+            "degree": 0.750682937251796,
+            "betweenness": 0.14575900510667017,
+            "eigenvector": 0.8632452965964972,
             "group": 2,
             "name": 77
         },
         {
             "id": 78,
-            "degree": 0.8948864791271876,
-            "betweenness": 0.7882306286770205,
-            "eigenvector": 0.5361227874854922,
+            "degree": 0.2831795000818046,
+            "betweenness": 0.5078292286122514,
+            "eigenvector": 0.95354242936962,
             "group": 1,
             "name": 78
         },
         {
             "id": 79,
-            "degree": 0.4910620740688064,
-            "betweenness": 0.11662384589279828,
-            "eigenvector": 0.41226052824891724,
+            "degree": 0.9358601839871948,
+            "betweenness": 0.8287490340463896,
+            "eigenvector": 0.11962135006849528,
             "group": 1,
             "name": 79
         },
         {
             "id": 80,
-            "degree": 0.12179519861360377,
-            "betweenness": 0.13810207465445723,
-            "eigenvector": 0.8889479102676869,
-            "group": 1,
+            "degree": 0.6293824083877583,
+            "betweenness": 0.6566554585635827,
+            "eigenvector": 0.5737713740202662,
+            "group": 3,
             "name": 80
-        },
-        {
-            "id": 81,
-            "degree": 0.38464268214300457,
-            "betweenness": 0.11636759429029353,
-            "eigenvector": 0.6846774042873053,
-            "group": 2,
-            "name": 81
-        },
-        {
-            "id": 82,
-            "degree": 0.12075085353236092,
-            "betweenness": 0.41679360937379584,
-            "eigenvector": 0.7035981567347175,
-            "group": 3,
-            "name": 82
-        },
-        {
-            "id": 83,
-            "degree": 0.161719338280491,
-            "betweenness": 0.33582502674910797,
-            "eigenvector": 0.32585079058191124,
-            "group": 0,
-            "name": 83
-        },
-        {
-            "id": 84,
-            "degree": 0.9452440107325393,
-            "betweenness": 0.22690036333125496,
-            "eigenvector": 0.9268647325667687,
-            "group": 3,
-            "name": 84
-        },
-        {
-            "id": 85,
-            "degree": 0.15081468547427934,
-            "betweenness": 0.0724613573940901,
-            "eigenvector": 0.22074200938199418,
-            "group": 1,
-            "name": 85
-        },
-        {
-            "id": 86,
-            "degree": 0.8710011859359091,
-            "betweenness": 0.39868761456056734,
-            "eigenvector": 0.9652332579381637,
-            "group": 3,
-            "name": 86
-        },
-        {
-            "id": 87,
-            "degree": 0.6043689201501453,
-            "betweenness": 0.8329130450233301,
-            "eigenvector": 0.4144448351470408,
-            "group": 3,
-            "name": 87
-        },
-        {
-            "id": 88,
-            "degree": 0.532822902631514,
-            "betweenness": 0.6632522785088331,
-            "eigenvector": 0.660299064652932,
-            "group": 3,
-            "name": 88
-        },
-        {
-            "id": 89,
-            "degree": 0.12918748119626167,
-            "betweenness": 0.47578434191737473,
-            "eigenvector": 0.6649017933828966,
-            "group": 2,
-            "name": 89
-        },
-        {
-            "id": 90,
-            "degree": 0.13008608498708296,
-            "betweenness": 0.3167123154879644,
-            "eigenvector": 0.3533548146675758,
-            "group": 3,
-            "name": 90
-        },
-        {
-            "id": 91,
-            "degree": 0.3046937276082575,
-            "betweenness": 0.8552372297222708,
-            "eigenvector": 0.6101833800499947,
-            "group": 1,
-            "name": 91
-        },
-        {
-            "id": 92,
-            "degree": 0.25169246743481755,
-            "betweenness": 0.70745506268474,
-            "eigenvector": 0.4024315796975121,
-            "group": 3,
-            "name": 92
-        },
-        {
-            "id": 93,
-            "degree": 0.6647681104559593,
-            "betweenness": 0.42240609397880213,
-            "eigenvector": 0.5386115517190683,
-            "group": 0,
-            "name": 93
-        },
-        {
-            "id": 94,
-            "degree": 0.12124390265168161,
-            "betweenness": 0.6284760229784161,
-            "eigenvector": 0.765075031968448,
-            "group": 0,
-            "name": 94
-        },
-        {
-            "id": 95,
-            "degree": 0.4689551101847764,
-            "betweenness": 0.49166843299093754,
-            "eigenvector": 0.000008706264567059918,
-            "group": 0,
-            "name": 95
-        },
-        {
-            "id": 96,
-            "degree": 0.3132260345249005,
-            "betweenness": 0.9468391995052962,
-            "eigenvector": 0.5101375803353643,
-            "group": 1,
-            "name": 96
-        },
-        {
-            "id": 97,
-            "degree": 0.9388189159667655,
-            "betweenness": 0.12880258752740525,
-            "eigenvector": 0.7463533925124578,
-            "group": 0,
-            "name": 97
-        },
-        {
-            "id": 98,
-            "degree": 0.24098155309892622,
-            "betweenness": 0.05229027725120827,
-            "eigenvector": 0.37186793046701017,
-            "group": 1,
-            "name": 98
         }
     ]
 }
