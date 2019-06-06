@@ -37,16 +37,22 @@
 		var toggle = 0;
 		var linkMaxConnection;
 		var initialThreshold = 35;
+		var categoricalAttributes = ['position', 'department', 'experience'];
+		var categoricalValues;
+		var ordinalAttributes = ['salary', 'tenure'];
+		var linkedByIndex;
 
 		d3.json("./employees.json", function (error, graph) {
 			if (error) throw error;
+
+			var categoricalValues = getAttributeValues(graph.nodes, categoricalAttributes);
 
 			setDataValues(graph);
 
 			linkMaxConnection = linkWithMaxConnection(graph.link_connection_sources);
 
 			// Make object of all neighboring nodes.
-			var linkedByIndex = {};
+			linkedByIndex = {};
 			graph.links.forEach(function (d) {
 				linkedByIndex[d.source + ',' + d.target] = 1;
 				linkedByIndex[d.target + ',' + d.source] = 1;
@@ -78,11 +84,11 @@
 				//.attr("r", function(d, i) { count = 0; graph.links.forEach(function(l) { if (l.source == i || l.target == i) { count += 1;}; }); return size(count);})
 				// Use degree centrality from NetworkX in json.
 				.attr('r', function (d, i) { return degreeSize(d.degree); })
-				// Color by group, a result of modularity calculation in NetworkX.
+				// Color by category
 				.attr("fill", function (d) {
-					var masivi = [0, 1, 2, 3, 4]
-					// return color(masivi[Math.floor(Math.random() * masivi.length)]); 
-					return color(d.tenure);
+					let category = categoricalAttributes[0]
+					let index = categoricalValues[category].findIndex(x => x == d[category]);
+					return color(index);
 				})
 				.attr('class', 'node')
 				// On click, toggle ego networks for the selected node.
@@ -138,7 +144,7 @@
 			slider.append('label')
 				.attr('for', 'threshold')
 				.text(initialThreshold);
-				
+
 			slider.append('input')
 				.attr('type', 'range')
 				.attr('min', d3.min(graph.links, function (d) { return d.weight; }))
@@ -169,7 +175,6 @@
 						.force("link").links(newData);
 
 					simulation.alphaTarget(0.1).restart();
-
 				});
 
 			//create label
@@ -252,6 +257,15 @@
 					temp[link_id] = temp[link_id] > parseInt(element.interaction_count) ? temp[link_id] : parseInt(element.interaction_count);
 				}
 			});
+			return temp;
+		}
+
+		function getAttributeValues(nodes, categoricalAttributes) {
+			var temp = {}
+			categoricalAttributes.forEach(function (keyName) {
+				temp[keyName] = Array.from(new Set(nodes.map(function (d){ return d[keyName]})));
+			});
+
 			return temp;
 		}
 
