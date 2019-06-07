@@ -46,6 +46,8 @@
 		var categoricalValues;
 		var linkedByIndex;
 		var distinctSources;
+		var link;
+		var node;
 
 		d3.json("./employees.json", function (error, graph) {
 			if (error) throw error;
@@ -75,14 +77,14 @@
 
 			var filteredLinks = graph.links.filter(d => linkMaxConnection[d.id].maxCount >= config.initialThreshold);
 
-			var link = container.append("g")
+			link = container.append("g")
 				.attr("class", "links")
 				.selectAll("line")
 				.data(filteredLinks, function (d) { return d.source + ", " + d.target; })
 				.enter().append("line")
 				.attr('class', 'link');
 
-			var node = container.append("g")
+			node = container.append("g")
 				.attr("class", "nodes")
 				.selectAll("circle")
 				.data(graph.nodes)
@@ -162,26 +164,9 @@
 				.style('display', 'block')
 				.on('input', function () {
 					var threshold = this.value;
-
 					d3.select('label').text(threshold);
-
-					// Find the links that are at or above the threshold.
-					var newData = graph.links.filter(d => linkMaxConnection[d.id].maxCount >= threshold);
-
-					// Data join with only those new links.
-					link = link.data(newData, function (d) { return d.source + ', ' + d.target; });
-					link.exit().remove();
-					var linkEnter = link.enter().append('line').attr('class', 'link');
-					link = linkEnter.merge(link);
-
-					node = node.data(graph.nodes);
-
-					// Restart simulation with new link data.
-					simulation
-						.nodes(graph.nodes).on('tick', ticked)
-						.force("link").links(newData);
-
-					simulation.alphaTarget(0.1).restart();
+					var source = d3.select('#interactionSourcesFilter').property('value');
+					filterLinks(threshold, source, simulation, graph)
 				});
 
 			//create label
@@ -242,13 +227,8 @@
 				.attr('id', 'interactionSourcesFilter')
 				.on('change', function () {
 					var source = this.value;
-					d3.selectAll('.link').style('stroke-opacity', function (l) {
-						if (source == 'any') return 1;
-						if (linkMaxConnection[l.id].sources.includes(source))
-							return 1;
-						else
-							return 0;
-					});
+					var threshold = d3.select('#threshold').property('value');
+					filterLinks(threshold, source, simulation, graph);
 				});
 
 			interactionSourcesDropdown.selectAll('option')
@@ -256,6 +236,31 @@
 				.enter().append('option')
 				.attr('value', d => d)
 				.text(function (d) { return d; });
+
+			//filter links
+			function filterLinks(threshold, source, simulation, graph) {
+				// Find the links that are at or above the threshold.
+				var newData = graph.links.filter(function (d) {
+					if (source == 'any') return linkMaxConnection[d.id].maxCount >= threshold;
+					return linkMaxConnection[d.id].maxCount >= threshold && linkMaxConnection[d.id].sources.includes(source);
+				});
+
+				// Data join with only those new links.
+				link = link.data(newData, function (d) { return d.source + ', ' + d.target; });
+				link.exit().remove();
+				var linkEnter = link.enter().append('line').attr('class', 'link');
+				link = linkEnter.merge(link);
+
+				node = node.data(graph.nodes);
+
+				// Restart simulation with new link data.
+				simulation
+					.nodes(graph.nodes).on('tick', ticked)
+					.force("link").links(newData);
+
+				simulation.alphaTarget(0.1).restart();
+			}
+
 		});
 
 		function dragstarted(d) {
