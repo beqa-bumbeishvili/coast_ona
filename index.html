@@ -45,11 +45,14 @@
 		var linkMaxConnection;
 		var categoricalValues;
 		var linkedByIndex;
+		var distinctSources;
 
 		d3.json("./employees.json", function (error, graph) {
 			if (error) throw error;
 
 			var categoricalValues = getAttributeValues(graph.nodes, config.categoricalAttributes);
+
+			var distinctSources = ['any'].concat(Array.from(new Set(graph.link_connection_sources.map(function (d) { return d.source }))));
 
 			setDataValues(graph);
 
@@ -70,7 +73,7 @@
 			// Collision detection based on degree centrality.
 			simulation.force("collide", d3.forceCollide().radius(function (d) { return degreeSize(+d.salary); }));
 
-			var filteredLinks = graph.links.filter(d => linkMaxConnection[d.id] >= config.initialThreshold);
+			var filteredLinks = graph.links.filter(d => linkMaxConnection[d.id].maxCount >= config.initialThreshold);
 
 			var link = container.append("g")
 				.attr("class", "links")
@@ -163,7 +166,7 @@
 					d3.select('label').text(threshold);
 
 					// Find the links that are at or above the threshold.
-					var newData = graph.links.filter(d => linkMaxConnection[d.id] >= threshold);
+					var newData = graph.links.filter(d => linkMaxConnection[d.id].maxCount >= threshold);
 
 					// Data join with only those new links.
 					link = link.data(newData, function (d) { return d.source + ', ' + d.target; });
@@ -199,7 +202,7 @@
 					var centralitySize = d3.scaleLinear()
 						.domain([d3.min(graph.nodes, function (d) { return +d[centrality]; }), d3.max(graph.nodes, function (d) { return +d[centrality]; })])
 						.range([config.nodeSizes.min, config.nodeSizes.max]);
-					node.transition().duration(1000).attr('r', function (d) { return centralitySize(+d[centrality]); });
+					node.transition().duration(200).attr('r', function (d) { return centralitySize(+d[centrality]); });
 					// Recalculate collision detection based on selected centrality.
 					simulation.force("collide", d3.forceCollide().radius(function (d) { return centralitySize(+d[centrality]); }));
 					simulation.alphaTarget(0.1).restart();
@@ -218,7 +221,7 @@
 				.attr('id', 'ordinalDropdown')
 				.on('change', function () {
 					var category = this.value
-					container.selectAll('.node').transition().duration(1000)
+					container.selectAll('.node').transition().duration(200)
 						.attr("fill", function (d) {
 							let index = categoricalValues[category].findIndex(x => x == d[category]);
 							return color(index);
@@ -227,6 +230,29 @@
 
 			ordinalDropdown.selectAll('option')
 				.data(config.categoricalAttributes)
+				.enter().append('option')
+				.attr('value', d => d)
+				.text(function (d) { return d; });
+
+
+			// A dropdown menu for categorical filtering
+			// Accounts for node collision.
+			var interactionSourcesDropdown = d3.select('body').append('div')
+				.append('select')
+				.attr('id', 'interactionSourcesFilter')
+				.on('change', function () {
+					var source = this.value;
+					d3.selectAll('.link').style('stroke-opacity', function (l) {
+						if (source == 'any') return 1;
+						if (linkMaxConnection[l.id].sources.includes(source))
+							return 1;
+						else
+							return 0;
+					});
+				});
+
+			interactionSourcesDropdown.selectAll('option')
+				.data(distinctSources)
 				.enter().append('option')
 				.attr('value', d => d)
 				.text(function (d) { return d; });
@@ -269,15 +295,26 @@
 		//calculate max interactions count for each link 
 		function linkWithMaxConnection(connections) {
 			var temp = {};
+
 			connections.forEach(element => {
 				var link_id = element.link_id;
+
 				if (temp[link_id] == undefined) {
-					temp[link_id] = parseInt(element.interaction_count)
+					temp[link_id] = {
+						maxCount: parseInt(element.interaction_count),
+						sources: parseInt(element.interaction_count) > 0 ? [element.source] : []
+					}
 				}
 				else {
-					temp[link_id] = temp[link_id] > parseInt(element.interaction_count) ? temp[link_id] : parseInt(element.interaction_count);
+					var max = temp[link_id].maxCount > parseInt(element.interaction_count) ? temp[link_id].maxCount : parseInt(element.interaction_count);
+					let count = parseInt(element.interaction_count);
+					temp[link_id] = {
+						maxCount: max,
+						sources: count > 0 ? temp[link_id].sources : temp[link_id].sources.concat([element.source])
+					}
 				}
 			});
+
 			return temp;
 		}
 
